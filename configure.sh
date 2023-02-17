@@ -1,0 +1,6 @@
+#!/bin/bash
+
+GIT_URL=$1
+GIT_PRI_TOKEN=$2
+GIT_PROJECT_ID=$3
+GIT_API_VERSION="v4"
