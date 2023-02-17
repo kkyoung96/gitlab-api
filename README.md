@@ -3,6 +3,7 @@
 ## 0. setting
 ```bash
 (install) jq
+chmod +x get_prj_id.sh delete_prj_job_artifacts.sh
 ```
 
 ## 1. GET Projects ID
@@ -10,6 +11,7 @@
 ./get_prj_id.sh {GIT_URL} {GIT_PRI_TOKEN}
 ...
 (output file) jq_prj_id.txt
+grep -i {PROJECT_NAME} -B1 jq_prj_id.txt
 ```
 ### jq_prj_id.txt example
 ```json
